@@ -46,15 +46,53 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
 
 - **`GET /api/Category`** - Retorna todas as categorias.
 - **`POST /api/Category`** - Cria uma nova categoria. Requer autenticação.
+
+  ```json
+  {
+  "categoria": "Material escolar"
+  }
+  ```
 - **`GET /api/Category/{Id}`** - Retorna uma categoria específica.
 
 ### Product 
 
 - **`GET /api/Product`** - Retorna todos os produtos.
 - **`POST /api/Product`** - Cria um novo produto. Requer autenticação.
+
+ ```json
+  {
+    "nome": "Seiya de Pegaso action figure",
+    "descricao": "Bonecos colecionáveis",
+    "status": "Em estoque",
+    "preco": 50,
+    "quantidadeEstoque": 10,
+    "categoryId": 4
+  }
+
+  ```
 - **`GET /api/Product/{Id}`** - Retorna um produto específico.
 - **`PUT /api/Product/{Id}`** - Atualiza um produto existente. Requer autenticação.
-- **`PATCH /api/Product/{Id}`** - Atualiza parcialmente um produto. Requer autenticação.
+
+Id = 14 válido para o teste:
+```json
+{
+  "nome": "Vegeta action figure",
+  "descricao": "Bonecos colecionáveis",
+  "status": "Em estoque",
+  "preco": 50,
+  "quantidadeEstoque": 3,
+  "categoryId": 4
+}
+```
+
+- **`PATCH /api/Product/{Id}`** - Atualiza parcialmente um produto. Aceita apenas status "Em estoque" ou "Indisponível". Requer autenticação.
+
+  ```json
+  {
+    "status": "Em estoque",
+    "quantidadeEstoque": 99
+  }
+  ```
 - **`DELETE /api/Product/{Id}`** - Deleta um produto. Requer autenticação.
 - **`GET /api/Product/GetProductsByCategory`** - Retorna produtos por categoria.
 - **`GET /api/Product/GetStock`** - Retorna produtos em estoque.
@@ -65,5 +103,29 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
 - **`GET /api/User/{Id}`** - Retorna detalhes de um usuário. Requer autenticação.
 - **`DELETE /api/User/{Id}`** - Deleta um usuário. Requer autenticação.
 - **`POST /api/User/Login`** - Realiza login e retorna um token JWT.
-- **`POST /api/User/SignUp`** - Cria um novo usuário.
-- **`PATCH /api/User/{Id}/Role`** - Atualiza o cargo de um usuário. Requer autenticação.
+  
+  Conta com autenticação:
+    ```json
+    {
+      "email": "email@email.com",
+      "password": "123456"
+    }
+    ```
+    
+- **`POST /api/User/SignUp`** - Cria um novo usuário com cargo de Cliente de forma padrão.
+
+  Conta sem falhas de autenticação:
+  ```json
+    {
+      "name": "Andréa",
+      "email": "andrea@email.com",
+      "password": "123456"
+    }
+    ```
+- **`PATCH /api/User/{Id}/Role`** - Atualiza o cargo de um usuário. Aceita apenas "Cliente", "Funcionário" ou "Gerente". Requer autenticação.
+
+    ```json
+    {
+      "role": " Gerente"
+    }
+    ```
