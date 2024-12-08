@@ -196,17 +196,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               }
             }
@@ -236,17 +236,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               }
             }
@@ -293,17 +293,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               }
             }
@@ -350,17 +350,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Product"
+                  "$ref": "#/components/schemas/ProductResponseDTO"
                 }
               }
             }
@@ -467,7 +467,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Product"
+                    "$ref": "#/components/schemas/ProductResponseDTO"
                   }
                 }
               },
@@ -475,7 +475,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Product"
+                    "$ref": "#/components/schemas/ProductResponseDTO"
                   }
                 }
               },
@@ -483,7 +483,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Product"
+                    "$ref": "#/components/schemas/ProductResponseDTO"
                   }
                 }
               }
@@ -709,7 +709,7 @@
             "format": "int32"
           },
           "categoria": {
-            "maxLength": 50,
+            "maxLength": 255,
             "minLength": 0,
             "type": "string"
           }
@@ -728,6 +728,7 @@
       },
       "Product": {
         "required": [
+          "categoryId",
           "nome",
           "preco",
           "status"
@@ -778,10 +779,9 @@
       },
       "ProductDTO": {
         "required": [
-          "descricao",
+          "categoryId",
           "nome",
           "preco",
-          "quantidadeEstoque",
           "status"
         ],
         "type": "object",
@@ -794,7 +794,8 @@
           "descricao": {
             "maxLength": 255,
             "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "status": {
             "minLength": 1,

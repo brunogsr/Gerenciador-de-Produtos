@@ -191,3 +191,4 @@ C:\Users\bruno\source\repos\GerenciadorProdutos\GerenciadorProdutos\obj\Debug\ne
 C:\Users\bruno\source\repos\GerenciadorProdutos\GerenciadorProdutos\obj\Debug\net8.0\GerenciadorProdutos.pdb
 C:\Users\bruno\source\repos\GerenciadorProdutos\GerenciadorProdutos\obj\Debug\net8.0\GerenciadorProdutos.genruntimeconfig.cache
 C:\Users\bruno\source\repos\GerenciadorProdutos\GerenciadorProdutos\obj\Debug\net8.0\ref\GerenciadorProdutos.dll
+C:\Users\bruno\source\repos\GerenciadorProdutos\GerenciadorProdutos\obj\Debug\net8.0\GerenciadorProdutos.sourcelink.json

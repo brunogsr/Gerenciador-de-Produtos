@@ -18,7 +18,7 @@ public class ProductController : ControllerBase
     public ActionResult<List<ProductResponseDTO>> GetAllProducts() => Ok(_productService.GetAllProducts());
 
     [HttpGet("{id}")] // Busca um produto por ID
-    public ActionResult<Product> GetProductById([FromRoute] int id)
+    public ActionResult<ProductResponseDTO> GetProductById([FromRoute] int id)
     {
         var product = _productService.GetProductById(id);
         if (product == null)
@@ -28,7 +28,7 @@ public class ProductController : ControllerBase
         return Ok(product);
     }
 
-    [HttpGet("GetProductsByCategory")]
+    [HttpGet("GetProductsByCategory")] // Busca produtos por categoria
     public ActionResult<List<ProductResponseDTO>> GetProductsByCategory([FromQuery] int categoryId)
     {
         var products = _productService.GetProductsByCategory(categoryId);
@@ -40,7 +40,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet("GetStock")] // Busca todos os produtos em estoque
-    public ActionResult<IEnumerable<Product>> GetProductsInStock()
+    public ActionResult<IEnumerable<ProductResponseDTO>> GetProductsInStock()
     {
         var productsInStock = _productService.GetProductsInStock();
         if (productsInStock == null || !productsInStock.Any())
@@ -51,9 +51,9 @@ public class ProductController : ControllerBase
         return Ok(productsInStock);
     }
 
-    [HttpPost]
+    [HttpPost] // Cria um produto
     [Authorize(Policy = "GerenteFuncionario")]
-    public ActionResult<Product> CreateProduct([FromBody] ProductDTO productDTO)
+    public ActionResult<ProductResponseDTO> CreateProduct([FromBody] ProductDTO productDTO)
     {
         if (!ModelState.IsValid) return BadRequest(ModelState);
 
@@ -70,7 +70,7 @@ public class ProductController : ControllerBase
 
     [HttpPut("{id}")] // Atualiza um produto
     [Authorize(Policy = "GerenteFuncionario")]
-    public ActionResult<Product> UpdateProduct([FromRoute] int id, [FromBody] ProductDTO productDTO)
+    public ActionResult<ProductResponseDTO> UpdateProduct([FromRoute] int id, [FromBody] ProductDTO productDTO)
     {
         if (!ModelState.IsValid)
         {
@@ -87,7 +87,7 @@ public class ProductController : ControllerBase
 
     [HttpPatch("{id}")] // Atualiza o Status e Quantidade em estoque de um produto
     [Authorize(Policy = "GerenteFuncionario")]
-    public ActionResult<Product> UpdateStock([FromRoute] int id, [FromBody] ProductStockRequest productRequest)
+    public ActionResult<ProductResponseDTO> UpdateStock([FromRoute] int id, [FromBody] ProductStockRequest productRequest)
     {
         if (!ModelState.IsValid)
         {

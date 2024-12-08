@@ -69,7 +69,7 @@ builder.Services.AddScoped<CategoryService>();
 // Configuração do banco de dados
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\bruno\\OneDrive\\Desktop\\bootcamp\\GerenciadorProdutosGostaria\\DB_ProdutosGostaria.mdf;Integrated Security=True;Connect Timeout=30");
+    options.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\DB_ProdutosGostaria.mdf;Integrated Security=True;Connect Timeout=30;Integrated Security=True;Connect Timeout=30");
 });
 
 // Configuração de autenticação JWT

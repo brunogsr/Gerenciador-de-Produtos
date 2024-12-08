@@ -18,14 +18,14 @@ namespace GerenciadorProdutos.Controllers
             _categoryService = categoryService;
         }
 
-        [HttpGet]
+        [HttpGet] // Busca todas as categorias
         public ActionResult<List<Category>> GetCategories()
         {
             var categories = _categoryService.GetAllCategories();
             return Ok(categories);
         }
 
-        [HttpPost]
+        [HttpPost] // Cria uma categoria
         [Authorize(Policy = "GerenteFuncionario")]
         public ActionResult<Category> CreateCategory([FromBody] CategoryDTO categoryDTO)
         {
@@ -38,7 +38,7 @@ namespace GerenciadorProdutos.Controllers
             return CreatedAtAction(nameof(GetCategoryById), new { id = category.CategoryId }, category);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}")] // Busca uma categoria por ID
         public ActionResult<Category> GetCategoryById([FromRoute] int id)
         {
             var category = _categoryService.GetCategoryById(id);

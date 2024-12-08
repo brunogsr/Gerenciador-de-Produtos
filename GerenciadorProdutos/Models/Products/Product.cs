@@ -24,9 +24,9 @@ public class Product
     [Range(0, int.MaxValue)]
     public int QuantidadeEstoque { get; set; }
 
+    [Required]
     public int CategoryId { get; set; } // Chave estrangeira obrigatória
 
-    // Propriedade de navegação para Category
+    // Propriedade de navegação para a entidade Category
     public Category Category { get; set; }
 }
-

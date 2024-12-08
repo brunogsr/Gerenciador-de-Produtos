@@ -107,7 +107,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Product",
+        "Type": "GerenciadorProdutos.Models.Products.ProductDTO.ProductResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -133,7 +133,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Product",
+        "Type": "GerenciadorProdutos.Models.Products.ProductDTO.ProductResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -164,7 +164,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Product",
+        "Type": "GerenciadorProdutos.Models.Products.ProductDTO.ProductResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -195,7 +195,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Product",
+        "Type": "GerenciadorProdutos.Models.Products.ProductDTO.ProductResponseDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -267,7 +267,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Product, GerenciadorProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GerenciadorProdutos.Models.Products.ProductDTO.ProductResponseDTO, GerenciadorProdutos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
