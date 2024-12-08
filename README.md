@@ -1,6 +1,6 @@
 # Gerenciador de Produtos
 
-Este projeto é uma API para gerenciar produtos, categorias e usuários. A API permite a criação, leitura, atualização e exclusão de produtos e categorias, com autenticação baseada em token para garantir a segurança das rotas.
+Este projeto é uma API para gerenciar produtos, categorias e usuários. A API permite a criação, leitura, atualização e exclusão de produtos, categorias e usuários do Banco de Dados, com autenticação baseada em token para garantir a segurança das rotas.
 
 ## Requisitos
 
