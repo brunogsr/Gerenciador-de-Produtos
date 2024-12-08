@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56344F8F-9124-44D7-99AB-FFCF6A447C4A}|TestesUnitarios\\TestesUnitarios.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\testesunitarios\\services\\categoryservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56344F8F-9124-44D7-99AB-FFCF6A447C4A}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\services\\categoryservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56344F8F-9124-44D7-99AB-FFCF6A447C4A}|TestesUnitarios\\TestesUnitarios.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\testesunitarios\\services\\productservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56344F8F-9124-44D7-99AB-FFCF6A447C4A}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\services\\productservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\interfacesservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\interfacesservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\interfacesservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\interfacesservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56344F8F-9124-44D7-99AB-FFCF6A447C4A}|TestesUnitarios\\TestesUnitarios.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\testesunitarios\\testesunitarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56344F8F-9124-44D7-99AB-FFCF6A447C4A}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\testesunitarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 282,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\TestesUnitarios\\Services\\CategoryServiceTest.cs",
+              "RelativeDocumentMoniker": "TestesUnitarios\\Services\\CategoryServiceTest.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\TestesUnitarios\\Services\\CategoryServiceTest.cs",
+              "RelativeToolTip": "TestesUnitarios\\Services\\CategoryServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:40:53.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\CategoryService.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:40:30.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\ProductService.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Services\\ProductService.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:39:45.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\InterfacesService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Services\\InterfacesService\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\InterfacesService\\ICategoryService.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Services\\InterfacesService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:38:12.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:01:57.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:40:53.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestesUnitarios",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\TestesUnitarios\\TestesUnitarios.csproj",
+              "RelativeDocumentMoniker": "TestesUnitarios\\TestesUnitarios.csproj",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\TestesUnitarios\\TestesUnitarios.csproj",
+              "RelativeToolTip": "TestesUnitarios\\TestesUnitarios.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T10:18:37.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\TestesUnitarios\\Services\\ProductServiceTest.cs",
+              "RelativeDocumentMoniker": "TestesUnitarios\\Services\\ProductServiceTest.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\TestesUnitarios\\Services\\ProductServiceTest.cs",
+              "RelativeToolTip": "TestesUnitarios\\Services\\ProductServiceTest.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowCgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:15:47.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:01:54.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
