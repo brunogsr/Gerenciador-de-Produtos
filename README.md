@@ -47,11 +47,12 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
 - **`GET /api/Category`** - Retorna todas as categorias.
 - **`POST /api/Category`** - Cria uma nova categoria. Requer autenticação.
 
-  ```json
-  {
-  "categoria": "Material escolar"
-  }
-  ```
+  Body válido:
+      ```json
+      {
+      "categoria": "Material escolar"
+      }
+      ```
 - **`GET /api/Category/{Id}`** - Retorna uma categoria específica.
 
 ### Product 
@@ -59,40 +60,42 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
 - **`GET /api/Product`** - Retorna todos os produtos.
 - **`POST /api/Product`** - Cria um novo produto. Requer autenticação.
 
- ```json
-  {
-    "nome": "Seiya de Pegaso action figure",
-    "descricao": "Bonecos colecionáveis",
-    "status": "Em estoque",
-    "preco": 50,
-    "quantidadeEstoque": 10,
-    "categoryId": 4
-  }
-
-  ```
+  Produto novo válido:
+     ```json
+      {
+        "nome": "Seiya de Pegaso action figure",
+        "descricao": "Bonecos colecionáveis",
+        "status": "Em estoque",
+        "preco": 50,
+        "quantidadeEstoque": 10,
+        "categoryId": 4
+      }
+    
+      ```
 - **`GET /api/Product/{Id}`** - Retorna um produto específico.
 - **`PUT /api/Product/{Id}`** - Atualiza um produto existente. Requer autenticação.
 
-Id = 14 válido para o teste:
-```json
-{
-  "nome": "Vegeta action figure",
-  "descricao": "Bonecos colecionáveis",
-  "status": "Em estoque",
-  "preco": 50,
-  "quantidadeEstoque": 3,
-  "categoryId": 4
-}
-```
+  Id = 14 Válido para o teste:
+    ```json
+    {
+      "nome": "Vegeta action figure",
+      "descricao": "Bonecos colecionáveis",
+      "status": "Em estoque",
+      "preco": 50,
+      "quantidadeEstoque": 3,
+      "categoryId": 4
+    }
+    ```
 
 - **`PATCH /api/Product/{Id}`** - Atualiza parcialmente um produto. Aceita apenas status "Em estoque" ou "Indisponível". Requer autenticação.
 
-  ```json
-  {
-    "status": "Em estoque",
-    "quantidadeEstoque": 99
-  }
-  ```
+  Body válido:
+      ```json
+      {
+        "status": "Em estoque",
+        "quantidadeEstoque": 99
+      }
+      ```
 - **`DELETE /api/Product/{Id}`** - Deleta um produto. Requer autenticação.
 - **`GET /api/Product/GetProductsByCategory`** - Retorna produtos por categoria.
 - **`GET /api/Product/GetStock`** - Retorna produtos em estoque.
@@ -123,7 +126,8 @@ Id = 14 válido para o teste:
     }
     ```
 - **`PATCH /api/User/{Id}/Role`** - Atualiza o cargo de um usuário. Aceita apenas "Cliente", "Funcionário" ou "Gerente". Requer autenticação.
-
+  
+  Body válido:
     ```json
     {
       "role": " Gerente"
