@@ -70,8 +70,7 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
         "quantidadeEstoque": 10,
         "categoryId": 4
       }
-    
-      ```
+     ```     
 - **`GET /api/Product/{Id}`** - Retorna um produto específico.
 - **`PUT /api/Product/{Id}`** - Atualiza um produto existente. Requer autenticação.
 
