@@ -881,11 +881,15 @@
         "additionalProperties": false
       },
       "RoleRequestDTO": {
+        "required": [
+          "role"
+        ],
         "type": "object",
         "properties": {
           "role": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "pattern": "^(Cliente | Funcionário | Gerente)$",
+            "type": "string"
           }
         },
         "additionalProperties": false

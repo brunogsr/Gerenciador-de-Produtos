@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\models\\users\\userdto\\rolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\models\\users\\userdto\\rolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\interfacesservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\interfacesservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\models\\products\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\models\\products\\productdto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\services\\interfacesservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|solutionrelative:gerenciadorprodutos\\services\\interfacesservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22EFCBC0-CA29-496A-8066-8D3ADDE37438}|GerenciadorProdutos\\GerenciadorProdutos.csproj|c:\\users\\bruno\\source\\repos\\gerenciadorprodutos\\gerenciadorprodutos\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +58,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Models\\Users\\UserDto\\RoleRequestDTO.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Models\\Users\\UserDto\\RoleRequestDTO.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Models\\Users\\UserDto\\RoleRequestDTO.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Models\\Users\\UserDto\\RoleRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:03:54.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "GerenciadorProdutos\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Controllers\\UserController.cs",
+              "RelativeToolTip": "GerenciadorProdutos\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAArwE0AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T16:02:48.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -60,14 +98,14 @@
               "RelativeDocumentMoniker": "GerenciadorProdutos\\Models\\Products\\ProductDTO\\ProductDTO.cs",
               "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Models\\Products\\ProductDTO\\ProductDTO.cs",
               "RelativeToolTip": "GerenciadorProdutos\\Models\\Products\\ProductDTO\\ProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T14:01:07.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
               "RelativeDocumentMoniker": "GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
@@ -75,18 +113,17 @@
               "RelativeToolTip": "GerenciadorProdutos\\Services\\InterfacesService\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:35:26.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:35:26.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "GerenciadorProdutos\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Services\\ProductService.cs",
               "RelativeToolTip": "GerenciadorProdutos\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAwDoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T13:32:36.021Z",
               "EditorCaption": ""
@@ -99,14 +136,14 @@
               "RelativeDocumentMoniker": "GerenciadorProdutos\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Controllers\\ProductController.cs",
               "RelativeToolTip": "GerenciadorProdutos\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwDcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T13:29:08.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "GerenciadorProdutos\\Controllers\\CategoryController.cs",
@@ -114,12 +151,11 @@
               "RelativeToolTip": "GerenciadorProdutos\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:28:45.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T13:28:45.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\Program.cs",
               "RelativeDocumentMoniker": "GerenciadorProdutos\\Program.cs",
@@ -127,34 +163,20 @@
               "RelativeToolTip": "GerenciadorProdutos\\Program.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAKIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T13:26:11.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.Products [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_SOURCE_REPOS_GERENCIADORPRODUTOS_GERENCIADORPRODUTOS_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Products.sql",
-              "ToolTip": "dbo.Products [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-12-08T13:25:25.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+              "WhenOpened": "2024-12-08T13:26:11.166Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "dbo.Products.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_SOURCE_REPOS_GERENCIADORPRODUTOS_GERENCIADORPRODUTOS_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_SOURCE_REPOS_GERENCIADORPRODUTOS_GERENCIADORPRODUTOS_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Products.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-08T13:25:25.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "dbo.Products.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_ONEDRIVE_DESKTOP_BOOTCAMP_GERENCIADORPRODUTOSGOSTARIA_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Products.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_ONEDRIVE_DESKTOP_BOOTCAMP_GERENCIADORPRODUTOSGOSTARIA_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Products.sql",
@@ -163,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "dbo.Users.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_ONEDRIVE_DESKTOP_BOOTCAMP_GERENCIADORPRODUTOSGOSTARIA_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Users.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_ONEDRIVE_DESKTOP_BOOTCAMP_GERENCIADORPRODUTOSGOSTARIA_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Users.sql",
@@ -172,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "dbo.Categories.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_ONEDRIVE_DESKTOP_BOOTCAMP_GERENCIADORPRODUTOSGOSTARIA_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Categories.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_BRUNO_ONEDRIVE_DESKTOP_BOOTCAMP_GERENCIADORPRODUTOSGOSTARIA_DB_PRODUTOSGOSTARIA.MDF/True/SqlTable/dbo.Categories.sql",
@@ -181,15 +203,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GerenciadorProdutos",
               "DocumentMoniker": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\GerenciadorProdutos.csproj",
               "RelativeDocumentMoniker": "GerenciadorProdutos\\GerenciadorProdutos.csproj",
               "ToolTip": "C:\\Users\\bruno\\source\\repos\\GerenciadorProdutos\\GerenciadorProdutos\\GerenciadorProdutos.csproj",
               "RelativeToolTip": "GerenciadorProdutos\\GerenciadorProdutos.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T12:53:00.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T12:53:00.617Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             }
           ]
         }
