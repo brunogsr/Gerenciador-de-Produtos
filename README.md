@@ -11,8 +11,8 @@ Este projeto é uma API para gerenciar produtos, categorias e usuários. A API p
 
 ## Compilando e Executando o Projeto
 
-1. Abra o projeto no **Visual Studio** ou **Visual Studio Code**.
-2. Compile o projeto para garantir que não há erros de construção.
+1. Abra o projeto no **Visual Studio**.
+2. Clique em Recompilar com o botão direito no arquivo GerenciadorProdutos.csproj.
 3. Após a compilação bem-sucedida, execute o projeto. O servidor será iniciado e você será redirecionado automaticamente para a interface do **Swagger**, onde poderá testar todas as rotas da API.
 
 ## Autenticação
