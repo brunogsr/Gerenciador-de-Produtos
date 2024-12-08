@@ -9,37 +9,69 @@ Este projeto é uma API para gerenciar produtos, categorias e usuários. A API p
 - Visual Studio
 - Swagger para testar a API
 
-## Conectando ao Banco de Dados
-
-O banco de dados SQL Server está localizado na raiz do projeto com o nome `DB_ProdutosGostaria.mdf`. Siga as instruções abaixo para configurar a conexão com o banco de dados:
-
-1. Abra o Visual Studio e conecte-se ao banco de dados com o SQL Server, utilizando a **autenticação do Windows**.
-2. Após conectar no banco de dados, clique com o botão direito sobre o banco de dados `DB_ProdutosGostaria.mdf` e selecione **Propriedades**.
-3. Copie a **cadeia de conexão** (Connection String) exibida nas propriedades do banco de dados.
-4. Dentro do projeto, abra o arquivo `Program.cs` e localize a linha 72.
-5. Substitua a cadeia de conexão de exemplo pela cadeia de conexão que você copiou do SQL Server.
-
-Exemplo de configuração no `Program.cs`:
-
-```csharp
-builder.Services.AddDbContext<AppDbContext>(options =>
-{
-    options.UseSqlServer("Data Source=INSIRA_AQUI_A_CADEIA_DE_CONEXÃO_AO_BANCO_SQL;Integrated Security=True;Connect Timeout=30;Integrated Security=True;Connect Timeout=30");
-});
-```
 ## Compilando e Executando o Projeto
-Abra o projeto no Visual Studio ou Visual Studio Code.
-Compile o projeto para garantir que não há erros.
-Execute o projeto. Após iniciar o servidor, você será redirecionado automaticamente para o Swagger, onde poderá testar todas as rotas da API.
-Autenticação
-A API usa autenticação baseada em token JWT. Para acessar as rotas protegidas, siga os passos abaixo:
 
-No Swagger, acesse a rota POST /User/Login.
-No corpo da requisição, envie as credenciais de login:
-```csharp
-{
-  "email": "email@email.com",
-  "password": "123456"
-}
-```
-Se as credenciais forem válidas, você receberá um token JWT com o cargo de Gerente, permitindo o acesso a todas as rotas da API.
+1. Abra o projeto no **Visual Studio** ou **Visual Studio Code**.
+2. Compile o projeto para garantir que não há erros de construção.
+3. Após a compilação bem-sucedida, execute o projeto. O servidor será iniciado e você será redirecionado automaticamente para a interface do **Swagger**, onde poderá testar todas as rotas da API.
+
+## Autenticação
+
+A API utiliza **autenticação baseada em token JWT** para acessar as rotas protegidas. Para obter o token, siga os seguintes passos:
+
+1. Acesse a rota `POST /User/Login` no Swagger.
+2. Envie as credenciais de login no corpo da requisição:
+
+    ```json
+    {
+      "email": "email@email.com",
+      "password": "123456"
+    }
+    ```
+
+3. Se as credenciais forem válidas, a API retornará um **token JWT** com o cargo de **Gerente**, permitindo o acesso a todas as rotas protegidas da API.
+4. Para acessar as rotas que exigem autenticação, inclua o token JWT no cabeçalho da requisição, no campo `Authorization` com o valor `Bearer {token}`.
+
+    Exemplo de cabeçalho com o token JWT:
+
+    ```
+    Authorization: Bearer {seu_token_aqui}
+    ```
+
+Esse token será necessário para interagir com as rotas que exigem permissões de **Gerente**.
+
+## Testando as Rotas
+
+- **`GET /api/Category`** - Retorna todas as categorias.
+- **`POST /api/Category`** - Cria uma nova categoria. Requer autenticação.
+- **`GET /api/Category/{Id}`** - Retorna uma categoria específica.
+  
+- **`GET /api/Product`** - Retorna todos os produtos.
+- **`POST /api/Product`** - Cria um novo produto. Requer autenticação.
+- **`GET /api/Product/{Id}`** - Retorna um produto específico.
+- **`PUT /api/Product/{Id}`** - Atualiza um produto existente. Requer autenticação.
+- **`PATCH /api/Product/{Id}`** - Atualiza parcialmente um produto. Requer autenticação.
+- **`DELETE /api/Product/{Id}`** - Deleta um produto. Requer autenticação.
+- **`GET /api/Product/GetProductsByCategory`** - Retorna produtos por categoria.
+- **`GET /api/Product/GetStock`** - Retorna produtos em estoque.
+
+- **`GET /api/User`** - Retorna todos os usuários. Requer autenticação.
+- **`GET /api/User/{Id}`** - Retorna detalhes de um usuário. Requer autenticação.
+- **`DELETE /api/User/{Id}`** - Deleta um usuário. Requer autenticação.
+- **`POST /api/User/Login`** - Realiza login e retorna um token JWT.
+- **`POST /api/User/SignUp`** - Cria um novo usuário.
+- **`PATCH /api/User/{Id}/Role`** - Atualiza o cargo de um usuário. Requer autenticação.
+
+## Observações
+
+- O projeto é configurado para usar **SQL Server** e **Windows Authentication** para conectar ao banco de dados.
+- Certifique-se de que o arquivo de banco de dados **DB_ProdutosGostaria.mdf** está acessível e corretamente conectado ao projeto.
+- Caso o banco de dados não exista, ele será criado automaticamente durante a execução.
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias para o projeto, sinta-se à vontade para abrir um **pull request** ou **issue**.
+
+## Licença
+
+Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
