@@ -42,10 +42,14 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
 
 ## Testando as Rotas
 
+### Category
+
 - **`GET /api/Category`** - Retorna todas as categorias.
 - **`POST /api/Category`** - Cria uma nova categoria. Requer autenticação.
 - **`GET /api/Category/{Id}`** - Retorna uma categoria específica.
-  
+
+### Product 
+
 - **`GET /api/Product`** - Retorna todos os produtos.
 - **`POST /api/Product`** - Cria um novo produto. Requer autenticação.
 - **`GET /api/Product/{Id}`** - Retorna um produto específico.
@@ -54,6 +58,8 @@ Esse token será necessário para interagir com as rotas que exigem permissões 
 - **`DELETE /api/Product/{Id}`** - Deleta um produto. Requer autenticação.
 - **`GET /api/Product/GetProductsByCategory`** - Retorna produtos por categoria.
 - **`GET /api/Product/GetStock`** - Retorna produtos em estoque.
+
+### User
 
 - **`GET /api/User`** - Retorna todos os usuários. Requer autenticação.
 - **`GET /api/User/{Id}`** - Retorna detalhes de um usuário. Requer autenticação.
