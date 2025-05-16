@@ -4,7 +4,7 @@ Este projeto é uma API para gerenciar produtos, categorias e usuários. A API p
 
 ## Requisitos
 
-- .NET 6.0 ou superior
+- .NET 8.0 ou superior
 - SQL Server
 - Visual Studio
 - Swagger para testar a API
